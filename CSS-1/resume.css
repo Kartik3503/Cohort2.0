@@ -1,0 +1,153 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+html, body{
+  height:100%;
+  width: 100%;
+}
+div{
+  height:100px ;
+  
+}
+.intro{
+  text-align: center;
+  padding-top: 75px;
+   height:200px;
+   background-color:rgb(63, 58, 132);
+}
+.About{
+  margin: 20px 70px;
+  padding-top: 75px;
+  height: 200px;
+  color:black;;
+  background-color: aliceblue;
+  text-align: center;
+}
+
+.education{
+  margin: 10px 70px;
+  padding-top: 45px;
+  height: 200px;
+  color:black;;
+  background-color: lightseagreen;
+  text-align: center;
+}
+.pg{
+  background-color: aliceblue;
+  margin:  12px 400px;  
+  height: 40px;
+  text-align: center;
+  padding-top: 10px;
+}
+.hs{
+  background-color: aliceblue;
+  height: 40px;
+  text-align: center;
+  margin:  12px 400px;  
+  padding-top: 10px;
+}
+.skills{
+  margin: 20px 70px;
+  padding-top: 45px;
+  height: 300px;
+  color:black;;
+  background-color: rgb(214, 81, 24);
+  text-align: center;
+  font-weight: bold;
+}
+.FD{
+ background-color: aliceblue;
+  height: 40px;
+  text-align: center;
+  margin:  12px 400px; 
+  padding-top: 10px; 
+}
+.js{
+   background-color: aliceblue;
+  height: 40px;
+  text-align: center;
+  margin:  12px 400px;  
+  padding-top: 10px;
+}
+.nj{
+   background-color: aliceblue;
+  height: 40px;
+  text-align: center;
+ margin:  12px 400px;  
+ padding-top: 10px;
+
+}
+.UI{
+   background-color: aliceblue;
+  height: 40px;
+  text-align: center;
+ margin:  12px 400px;  
+ padding-top: 10px;
+}
+
+.projects{
+margin: 20px 70px;
+  padding-top: 45px;
+  height: 250px;
+  color:black;;
+  background-color: rgb(89, 74, 124);
+  text-align: center;
+}
+.PT{
+ background-color: aliceblue;
+  height: 40px;
+  text-align: center;
+  margin:  12px 400px;  
+  padding-top: 10px;
+} 
+.lp{
+ background-color: aliceblue;
+  height: 40px;
+  text-align: center;
+  margin:  12px 400px;  
+  padding-top: 10px;
+}
+.bl{
+ background-color: aliceblue;
+  height: 40px;
+  text-align: center;
+  margin:  12px 400px;
+  padding-top: 10px;  
+}
+.contact{
+margin: 20px 70px;
+  padding-top: 45px;
+  height: 250px;
+  color:black;;
+  background-color: rgb(78, 127, 146);
+  text-align: center;
+}
+.email{
+ background-color: aliceblue;
+  height: 40px;
+  text-align: center;
+  margin:  12px 450px; 
+  padding-top: 10px; 
+}
+.phone{
+ background-color: aliceblue;
+  height: 40px;
+  text-align: center;
+  margin:  12px 450px; 
+  padding-top: 10px; 
+}.insta{
+ background-color: aliceblue;
+  height: 40px;
+  text-align: center;
+ margin:  12px 450px; 
+ padding-top: 10px; 
+}
+.footer{
+  height: 80px;
+  background-color: rgb(4, 7, 36);
+  color: white;
+  text-align: center;
+  padding-top: 40px;
+}

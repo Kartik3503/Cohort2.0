@@ -1,0 +1,86 @@
+@font-face {
+  font-family: hey;
+  src: url(./HelpMe.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+/* 
+#box{
+  height: 600px;                 gradiants
+  width: 600px;
+  background: conic-gradient(violet, indigo,blue, green , yellow, orange, red, violet);
+} */
+
+
+
+/* #outer{
+  height:100px;
+  width: 800px;
+  background-color: aqua;
+}
+#inner{
+  height: 50%;
+  width: 50%;
+  background-color: red;
+} */
+
+/* 
+#main{
+  height: 100%;
+  width: 100%;
+  background: radial-gradient( orange, white, green);
+} */
+
+/* 
+#main {
+  height: 100%;
+  width: 100%;
+  background-image: url(https://images.unsplash.com/photo-1754851342161-083a48d2e075?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-position: center;
+  background-size: cover;
+   background-size: contain;
+ } */
+/* 
+ #box{
+  height: 500px;
+  width: 500px;
+  background-color: red;
+  margin-left: 100px;
+  margin-top: 50px;
+  padding-left: 90px;
+  padding-top: 70px;
+ } */
+
+ 
+ #button{
+  margin:100px;
+  /* padding-left: 20px;
+  padding-right: 20px;
+  padding-top:10px;
+  padding-bottom: 10px;    ORRRR        */
+   padding:10px 20px;
+  background-color: blue;
+  font-weight: bold;
+  border: 3px colid white;
+  border-radius: 50px;
+ }  
+
+ #box{
+  height: 200px;
+  width: 200px;
+  background-color: brown;
+  border: 5px solid blue;
+  /* border: none; */
+  border-radius:70%;
+ }

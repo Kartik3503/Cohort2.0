@@ -1,0 +1,112 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body{
+  height: 100%;
+  width:100%;
+}
+
+
+
+/*---------------------------------------Position Asolute ---------------------------------------------*/
+
+/* #car1{
+  width: 200px;
+  height: 300px;
+  background-color: blue;
+}
+#car2{
+  position: absolute;
+  left:40%;
+  width: 240px;
+  height: 370px;
+  background-color: green;
+}
+#car3{
+  width: 290px;
+  height: 390px;
+  background-color: red;
+} */
+
+
+
+
+
+
+
+
+
+/* ------------------------Position Relative -------------------------------------*/
+
+
+/* #box{
+  position: relative;
+  height: 500px;
+  width: 500px;
+  background-color: red ;
+}
+#innerbox{
+  height: 400px;
+  width: 400px;
+  background-color: blue ;
+}
+#microinnerbox{
+  height: 300px;
+  width: 300px;
+  background-color: yellow;
+}
+#actualbox{
+  position: absolute;
+  left: 50%;
+  height: 50px;
+  width: 50px;
+  background-color: green;
+} */
+
+
+/* ------------------------------------------Position Fixed---------------------------------------------------------- */
+
+/* #homepage{
+  height: 3000px;
+  width: 100%;
+  background-color: #245;
+}
+
+#side{
+  position: fixed;
+  right: 10%;
+  top: 50%;
+  height: 200px;
+  width:100px;
+  background-color: #9834;
+} */
+
+
+
+/* ----------------------------------------------Psoition Sticky--------------------------------------------------------- */
+
+#parent{
+  height:1200px;
+  width: 100%;
+  background-color: red;
+  position: sticky;
+}
+#child{
+  height: 2000px;
+  width:100%;
+  background-color: blue;
+}
+#child1{
+  height: 2000px;
+  width:100%;
+  background-color: orangered
+}
+#sticky{
+  height: 200px;
+  width: 300px;
+  background-color: white;
+ position: sticky;
+ top: 10%;
+}
