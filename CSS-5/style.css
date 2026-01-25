@@ -2,26 +2,30 @@
   font-family: applef;
   src: url(./sf-pro-text_semibold.woff2);
 }
-*{
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-html, body{
- height: 100%;
- width: 100%;
-   font-family: applef;
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: applef;
 }
+
 /* #parent {
   height: 100%;
   width: 100%;
   background-color: rgb(155, 127, 255);
   display: flex;
-  align-items: center;
-  /* justify-content: center; */
-  /* justify-content: space-between */
-  /* justify-content: space-around */
-  /* justify-content: space-evenly
+  align-items: center;,flex-start,flex-end
+  /* justify-content: center;,flec-start , flex-end */
+/* justify-content: space-between */
+/* justify-content: space-around */
+/* justify-content: space-evenly
 }
 
 #box1 {
@@ -47,13 +51,14 @@ html, body{
 
 /* -----------------------------------APple nav BAr css------------------------------------------------------------- */
 
-#main{
+#main {
   height: 130%;
   width: 100%;
   background-color: rgb(250, 249, 249);
 
 }
-#nav{
+
+#nav {
   height: 50px;
   width: 100%;
   background-color: rgba(23, 22, 22, 0.909);
@@ -63,16 +68,18 @@ html, body{
   justify-content: center;
   gap: 90px;
 }
-h4{
+
+h4 {
   color: white;
   font-weight: 300px;
 }
-#center{
+
+#center {
   height: 85%;
   width: 100%;
- background-image: url(https://www.apple.com/v/iphone-17-pro/d/images/overview/welcome/hero_endframe__xdzisdq1ppem_xlarge_2x.jpg);
- background-size:cover;
- background-position: top;
+  background-image: url(https://www.apple.com/v/iphone-17-pro/d/images/overview/welcome/hero_endframe__xdzisdq1ppem_xlarge_2x.jpg);
+  background-size: cover;
+  background-position: top;
   text-align: center;
   font-size: 45px;
   font-weight: 500px;
@@ -80,20 +87,24 @@ h4{
   margin-top: 2%;
 
 }
-#center h1{
+
+#center h1 {
   color: white;
   font-size: 60px;
   font-weight: 500px;
 }
-#center h5{
+
+#center h5 {
   color: white;
   font-size: 40px;
   font-weight: 300px;
 }
-#links{
-padding: 25px;
+
+#links {
+  padding: 25px;
 }
-#links button{
+
+#links button {
   font-size: 25px;
   background-color: royalblue;
   border-radius: 50px;
@@ -101,13 +112,81 @@ padding: 25px;
   border: none;
   padding: 8px 20px;
   font-weight: 202px;
-   margin-top: 45%;
-   
-
+  margin-top: 45%;
 }
-#links h3{
+
+#links h3 {
   margin: 10px 8px;
   font-size: 25px;
-font-weight: 200px;
+  font-weight: 200px;
+}
 
+#highlight {
+  height: 140%;
+  width: 100%;
+  background-color: rgb(20, 20, 20);  
+}
+#head{
+  display: flex;
+  justify-content: center;
+  gap: 40%;
+  
+}
+#highlight h1 {
+  font-size: 55px;
+  font-weight: 100px;
+  color: white;
+  margin-top: 10%;
+}
+
+#highlight h3 {
+  font-size: 20px;
+  font-weight: 100;
+  margin-top: 11%;
+  color: royalblue;
+}
+#prd {
+ height: 70%;
+ width: 85%;
+ padding-left: 15%;
+ margin-top: 5%;
+ display: flex;
+ justify-content: center;
+ border-radius: 50px;
+background-size: cover;
+background-position: center;
+}
+#img h3{
+  color:white;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50%;
+}
+#design{
+  height: 100%;
+  width: 100%;
+  background-color: rgb(23, 23, 23);
+  display: flex;
+  justify-content: center;
+  }
+#light h4{
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  padding-top: 10%;
+  color: orangered;
+}
+#light h1{
+ font-size: 70px;
+ line-height: 44px;
+  color: white;
+  padding-top: 7%;
+    display: flex;
+    justify-content: center;
+}
+#light>#h22{
+ font-size: 70px;
+  color: white;
+  padding-bottom: 44px;
+  margin: 0px 20px;
 }

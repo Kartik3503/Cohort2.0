@@ -61,8 +61,6 @@ html ,body{
 }
 .bottom:hover h3>i{
   color:rgb(186, 24, 51);
-  background-color: transparent;
-  
-}
-card
 
+  background-color: transparent;
+}

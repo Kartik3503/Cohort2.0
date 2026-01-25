@@ -1,23 +1,33 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-html,body{
+
+html,
+body {
   height: 100%;
   width: 100%;
 }
-body{
+
+body {
   display: flex;
   justify-content: center;
   perspective: 300px;
 }
-#box{
+
+#box {
   height: 400px;
   width: 400px;
   background-image: url(https://media.istockphoto.com/id/1201399822/photo/photo-of-pretty-curly-long-hairdo-lady-holding-big-paper-heart-demonstrating-creative-idea.jpg?s=2048x2048&w=is&k=20&c=FyYDOkVMIVB2rIDsDI5GFF-2F5eM-SJwDaOXMjjk4iM=);
   background-size: cover;
   background-position: center;
   transform: scale(0.5);
-  transform: rotateY( 45deg);
+  transform: rotateY(45deg);
 }
+
+/* here we have learn about the css transform property which is used to besically rotate the element based on 
+the the axis as here we uses transform:rotateX(10deg); as it is for the X axis and then transform:rotateY(10deg); It is used for the
+Y-axis aligned element and then there is an z index transform:rotateZ(10deg); which is used to besically align the element on Z axis
+ 
+*/
