@@ -1,0 +1,89 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body{
+  height: 100%;
+  width: 100%;
+}
+
+/*
+#parent{
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20% ;
+  grid-template-rows: 25% 25% 20% 25% 25% 25% 25% ;
+}
+.box{
+  background-color: aqua;
+  border: 4px solid white;
+ } */
+
+
+ /* ---------------------------It will select and fill the colors from the upward side of the block ----------------------------*/
+/*  
+.box:nth-child(2n-1){
+  background-color: blue;
+  border-top:2px solid whitesmoke ;
+} */
+
+
+/* ------------------it will select the elemnt from the bottom side of the block.----------------------*/
+/* .box:nth-last-child(2){
+  background-color: brown;
+  border-bottom: 2px solid yellow;
+
+} */
+
+
+
+
+
+/* ---------------------Now for the text backgrounf image and text trasparency like adding the backgroud image on the text and gif also */
+h1{
+  font-size: 200px;
+  color:transparent;
+  /* background-image: url( https://images.unsplash.com/photo-1769029550604-1036199c94ea?q=80&w=626&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+   */
+  background-size: cover;
+/* 
+   -webkit-text-stroke: 3px seagreen; */
+  background: linear-gradient(red , blue, yellow, orange);
+  text-align: center;
+  background-clip: text;
+}
+
+#parent{
+  height: 400px;
+  width: 100%;
+  padding: 10px;
+  background-color: blue;
+  display: flex;
+  gap: 10px;
+  flex-wrap: nowrap;
+ overflow: auto;
+}
+#parent::-webkit-scrollbar{
+  /* display:none ; */
+  height: 5px;
+}
+#parent::-webkit-scrollbar-thumb{
+  background-color: brown;
+}
+.child{
+  height: 100%;
+  width: 300px;
+  background-color: white;
+  border-radius: 10%;
+  flex-shrink: 0;
+
+}
+.child img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10%;
+}
